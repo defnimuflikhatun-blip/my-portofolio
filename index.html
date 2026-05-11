@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portofolio pribadi untuk menampilkan profil, proyek, skill, dan kontak profesional."
+    >
+    <title>Nama Kamu | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Kembali ke beranda">
+        <span class="brand-mark">NK</span>
+        <span>Nama Kamu</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Skill</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Ganti tema" title="Ganti tema">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Frontend Developer & UI Enthusiast</p>
+          <h1>Membangun web yang cepat, rapi, dan nyaman digunakan.</h1>
+          <p class="hero-text">
+            Halo, saya Nama Kamu. Saya membuat antarmuka web responsif,
+            mengubah ide menjadi produk digital, dan suka menulis kode yang
+            mudah dirawat.
+          </p>
+
+          <div class="hero-actions" aria-label="Aksi utama">
+            <a class="button primary" href="#projects">Lihat Proyek</a>
+            <a class="button secondary" href="mailto:nama@email.com">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="profile-visual" aria-label="Ilustrasi profil">
+          <img src="assets/profile-illustration.svg" alt="Ilustrasi developer sedang bekerja">
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Ringkasan portofolio">
+        <article>
+          <strong>8+</strong>
+          <span>Proyek selesai</span>
+        </article>
+        <article>
+          <strong>3</strong>
+          <span>Tahun belajar & berkarya</span>
+        </article>
+        <article>
+          <strong>12</strong>
+          <span>Teknologi digunakan</span>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Karya Pilihan</p>
+          <h2>Proyek Terbaru</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media one"></div>
+            <div class="project-content">
+              <p class="project-type">Web App</p>
+              <h3>Dashboard Keuangan</h3>
+              <p>
+                Dashboard untuk memantau pemasukan, pengeluaran, dan target
+                bulanan dengan tampilan ringkas.
+              </p>
+              <div class="tags">
+                <span>React</span>
+                <span>Chart</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media two"></div>
+            <div class="project-content">
+              <p class="project-type">Landing Page</p>
+              <h3>Katalog UMKM</h3>
+              <p>
+                Halaman produk untuk bisnis lokal, lengkap dengan filter
+                kategori dan tombol pesan cepat.
+              </p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>JavaScript</span>
+                <span>SEO</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media three"></div>
+            <div class="project-content">
+              <p class="project-type">Portfolio</p>
+              <h3>Personal Website</h3>
+              <p>
+                Situs pribadi untuk menampilkan profil, karya, artikel singkat,
+                dan informasi kontak.
+              </p>
+              <div class="tags">
+                <span>GitHub Pages</span>
+                <span>Responsive</span>
+                <span>UI</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Kemampuan</p>
+          <h2>Skill yang Saya Gunakan</h2>
+        </div>
+
+        <div class="skill-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Responsive Design</span>
+          <span>UI Design</span>
+          <span>REST API</span>
+          <span>Figma</span>
+        </div>
+      </section>
+
+      <section class="section timeline" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Perjalanan</p>
+          <h2>Pengalaman</h2>
+        </div>
+
+        <div class="timeline-list">
+          <article>
+            <time>2025 - Sekarang</time>
+            <h3>Freelance Web Developer</h3>
+            <p>Membuat website profil, landing page, dan dashboard sederhana untuk klien.</p>
+          </article>
+          <article>
+            <time>2024 - 2025</time>
+            <h3>Frontend Learning Projects</h3>
+            <p>Membangun proyek latihan dengan JavaScript, React, API, dan GitHub Pages.</p>
+          </article>
+          <article>
+            <time>2023 - 2024</time>
+            <h3>Mulai Belajar Web Development</h3>
+            <p>Memahami dasar HTML, CSS, JavaScript, desain responsif, dan version control.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Kontak</p>
+          <h2>Mari bangun sesuatu yang menarik.</h2>
+          <p>
+            Saya terbuka untuk kolaborasi, freelance, dan diskusi proyek.
+            Kirim pesan lewat email atau hubungi saya melalui sosial media.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:nama@email.com">nama@email.com</a>
+          <a class="button secondary" href="https://github.com/username">GitHub</a>
+          <a class="button secondary" href="https://linkedin.com/in/username">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Nama Kamu. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
